@@ -19,7 +19,7 @@ class WeatherStation:
     def get_weather_data(self):
         temperature = 28.5
         humidity = 65.0
-        pressure = 1014.23
+        pressure = 1013.23
         return {'temperature': temperature, 'humidity': humidity, 'pressure': pressure}  # Simulated method to fetch weather data
 
     def start_monitoring(self):
